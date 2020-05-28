@@ -1,0 +1,120 @@
+body {
+  /*width: 1024px;*/
+  font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 800px;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+.back-arrow {
+  color: rgb(29, 161, 242);
+  font-size: 36px;
+  font-family: "Times new roman";
+}
+
+h1 {
+  padding: 15px 20px 30px 20px;
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+}
+
+.name-main {
+  padding-left: 30px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction:row;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.nav-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  font-size: 28px;
+  display: inline-block;
+  padding: 30px 41px 20px 41px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-bar li:hover {
+  background-color: rgb(29, 161, 242, 0.1);
+  color: grey;
+}
+
+.nav-bar a:visited {
+  color: grey;
+}
+
+.nav-bar li:first-child {
+  border-bottom: 3px solid rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+}
+
+.nav-bar li:first-child a {
+  color: rgb(29, 161, 242);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  overflow-wrap: wrap;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid lightgrey;
+  height: auto;
+  padding: 15px 15px;
+}
+
+.card:hover {
+  background-color: rgb(159, 191, 223, 0.1);
+}
+
+i {
+  color: rgb(29, 161, 242);
+}
+
+.image-content {
+  width: 70px;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.image-content img {
+  width: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.card-content {
+  display: inline-block;
+}
+
+#app p{
+  font-size: 24px;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.name {
+  font-weight: bold;
+}
+
+.tweet-info {
+  color: grey;
+}
